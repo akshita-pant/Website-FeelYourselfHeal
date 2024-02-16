@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:sans-serif;
+    font-size: medium;
+    margin: 15px 15px;
+    padding: 8px;
+    background: linear-gradient(to right, orange, #8ecdff);
+}
+
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.beechme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+  }
+.logo img {
+    height: 50px;
+    border-radius: 5px;
+}
+.lastpart img{
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px transparent;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #a4ddf9;
+    color: #f2f2f2;
+}
+h1:hover{
+    background-color: darkgoldenrod;
+    color: #f2f2f2;
+}
+
+h1, h2,h3{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+h1 {
+       text-align: center;
+       font-size: 35px;
+}
+
+h3 {
+        font-size: 20px;
+        margin: 10px 0;
+}
+
+p {
+    font-size: 21px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 10px 0;
+}
+ul li{
+    font-size: 20px;
+    line-height: 0.8;
+    text-align: justify;
+    margin: 10px 0;
+}
+img, video {
+    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+
+
+.container {
+    background-color: rgb(233, 195, 124);
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+
+fieldset {
+    
+    background-color: #fff;
+    border: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+
+.footer{ 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+ .footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size:medium;
+    color: black;
+ }
+
+
+ #frame1 {
+    margin: 2%;
+    padding: 50px;
+    background-color: lightblue;
+    width: auto;
+    height: auto;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    }
+    
+    .blue001 {
+    background-color: rgb(238, 178, 59);
+    width: 150px;
+    height: 50px;
+    color: black;
+    border: orange;
+    text-align: center;
+    }
+
+    
+    .blue002 {
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: blue;
+    text-align: center;
+    }

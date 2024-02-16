@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeelYourself Heal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="/photos/logo_black.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="quizzz.html" >Quiz </a></li>
+                    <li><a href="beingYou.html" >Being you Again</a></li>
+                    <li><a href="contact.html" >Feedback</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="/photos2/item.png" class="items">
+            <div id="circle">
+
+                <div class="feature one">
+                    <img src="/photos2/anger2.png">
+                    <div>
+                        <h1>Anger</h1>
+                        <p>about anger and aggerssion</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="/photos2/anxiety girl (1).png" >
+                    <div>
+                        <h1>Anxiety</h1>
+                        <p>about anxiety</p>
+                    </div>
+                </div>                    
+                <div class="feature three">
+                    <img src="/photos2/depressed girl.png">
+                    <div>
+                        <h1>Depression</h1>
+                        <p>about depression</p>
+                    </div>
+                </div>                   
+                <div class="feature four">
+                    <img src="/photos2/stress head.png">
+                    <div>
+                        <h1>Stress</h1>
+                        <p>about stress</p>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+        <div class="controls">
+            <img src="/photos/up.png" id="upbtn">
+            <h3>THE VARIOUS ISSUES </h3>
+            <img src="/photos/up.png" id="downbtn">
+        </div>
+        <script>
+            var circle= document.getElementById("circle");  
+            var upbtn= document.getElementById("upbtn");      
+            var downbtn= document.getElementById("downbtn");
+
+            var rotatevalue= circle.style.transform;
+            var rotatesum;
+
+            upbtn.onclick = function()
+            {
+                rotatesum=rotatevalue+ "rotate(-90deg)";
+                circle.style.transform = rotatesum;
+                rotatevalue = rotatesum;
+            }
+
+            downbtn.onclick = function()
+            {
+                rotatesum=rotatevalue+ "rotate(90deg)";
+                circle.style.transform = rotatesum;
+                rotatevalue = rotatesum;
+            }
+        </script>
+    </div>
+</body>
+</html>
